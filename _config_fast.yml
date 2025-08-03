@@ -1,0 +1,52 @@
+# Fast development configuration
+# Use with: bundle exec jekyll serve --config _config.yml,_config_fast.yml
+
+# Development optimizations
+environment: development
+incremental: true
+
+# Single language for development
+languages:
+  - en
+
+# Minimal excludes for faster builds
+exclude:
+  - vendor
+  - scripts
+  - remotedata
+  - Gemfile*
+  - README*
+  - LICENSE
+  - _pages/es
+  - _posts/es
+  - .sass-cache
+  - .jekyll-cache
+  - .jekyll-metadata
+  - _theme-local
+
+# Disable all admin forms for development
+indicator_config_form:
+  enabled: false
+indicator_data_form:
+  enabled: false
+indicator_metadata_form:
+  enabled: false
+site_config_form:
+  enabled: false
+
+# Minimal metadata processing
+hide_empty_metadata: true
+hide_single_series: true
+hide_single_unit: true
+
+# Disable time-consuming features during development
+progressive_web_app:
+  enabled: false
+cookie_consent_form:
+  enabled: false
+
+# Minimize frontpage cards for faster builds
+frontpage_cards:
+  - title: frontpage.download_all
+    content: ''
+    include: components/download-all-data.html
