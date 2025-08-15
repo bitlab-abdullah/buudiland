@@ -19,7 +19,7 @@
           "description": "",
           "keywords": "",
           "href": "/buudiland/es/1-2-1/",
-          "status": "notstarted"
+          "status": "notapplicable"
         },
         {
           "id": "1-2-2",
@@ -103,11 +103,11 @@
         },
         {
           "id": "1-a-3",
-          "title": "(non-default) Proportion of total county spending on services (education, health and social protection)",
+          "title": "Suma del total de las subvenciones y asignaciones no generadoras de deuda dedicadas directamente a programas de reducción de la pobreza en proporción al PIB",
           "description": "",
           "keywords": "",
           "href": "/buudiland/es/1-a-3/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "1-b-1",
