@@ -7,7 +7,7 @@
         
         {
           "id": "1-1-1",
-          "title": "New description for indicator 1.1.1 (edited)",
+          "title": "New description for indicator 1.1.1 (UAT edit)",
           "description": "",
           "keywords": "",
           "href": "/buudiland/1-1-1/",
@@ -51,6 +51,14 @@
           "description": "",
           "keywords": "",
           "href": "/buudiland/1-4-2/",
+          "status": "notstarted"
+        },
+        {
+          "id": "1-4-3",
+          "title": "(1.4.3) new indicator - Proportion of population living in households with access to basic services",
+          "description": "",
+          "keywords": "",
+          "href": "/buudiland/1-4-3/",
           "status": "notstarted"
         },
         {
