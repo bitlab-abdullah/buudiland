@@ -1,4 +1,4 @@
-﻿analytics:
+analytics:
   ua: ''
   gtag: ''
   gtm: ''
@@ -194,6 +194,9 @@ menu:
     dropdown: []
   - path: /about
     translation_key: menu.about
+    dropdown: []
+  - path: /test-page/
+    translation_key: menu.test_page
     dropdown: []
 metadata_edit_url: metadata
 metadata_tabs:
